@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Telesales - Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+
+    <header>
+        <nav class="navbar navbar-expand-lg" bg-body-tertiary style="background-color: #e47208;" data-bs-theme="light">
+        <div class="container-fluid">
+          <span class="navbar-brand">Telesales Hub</span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Phone Directory</a>
+              </li>
+              <li>
+                <a class="nav-link" href="generalknowledge.html">General Knowledge</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Important links
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="https://hrportalsv.mts.office.eeft.com/Home/Index/AplicacionTaskHome">ASEINFO Evolution</a></li>
+                  <li><a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="https://desktop.wxcc-us1.cisco.com">Webex Contact Center</a></li>
+                  <li><a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="https://fxportal.riaenvia.net">FxClient Portal</a></li>
+                  <li><a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="https://app.hubspot.com/login?hubs_signup-url=www.hubspot.com%2F&hubs_signup-cta=nav-utility-login&hubs_content=www.hubspot.com%2F&hubs_content-cta=nav-utility-login&uuid=73d2f155-144b-4df4-965c-c00ba2e74ba3&_gl=1*7fpd7n*_gcl_au*MTEyMjIyMjAwNS4xNzgxNTY4Nzk0*FPAU*MTEyMjIyMjAwNS4xNzgxNTY4Nzk0*_ga*NzA2NjU0MDQ2LjE3ODE1Njg3OTQ.*_ga_LXTM6CQ0XK*czE3ODE1Njg3OTQkbzEkZzAkdDE3ODE1Njg3OTQkajYwJGwwJGgw">HubSpot</a></li>
+                  <li><a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="https://riamoneytransfer.klicorders.com/Secure/Home.aspx">Ria - Advertising</a></li>
+                  <li><a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="https://secure.na2.adobesign.com/account/homeJS">Adobe E-Sign</a></li>
+                  <li><a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="http://199.168.28.48:9510/tm1web/">IBM Cognos TM1 Web</a></li>
+                  <li><a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="https://app.powerbi.com/groups/me/reports/4ff78d17-2258-4d4b-9c82-e96c235875c3/084eb70c373abc2ac72f?ctid=5b5ce690-c127-44b6-bfec-2df9a337fbb1&experience=power-bi">New Prospects - Telesales Locator</a></li>
+                  <li><a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="https://app.powerbi.com/groups/me/reports/dc1bdb57-90bc-4f96-9db1-629e4984569a/a0b36f47b52d86247e71?ctid=5b5ce690-c127-44b6-bfec-2df9a337fbb1&experience=power-bi">Sales Directory</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header> 
+
+    <main class="flex-grow-1 p-4">
+      <div class="container">
+        <h1>General Knowledge</h1>
+        <p>Sección en construcción...</p>
+      </div>
+    </main>
+
+    <footer>
+      <nav class="navbar navbar-expand-lg" bg-body-tertiary style="background-color: #e47208;" data-bs-theme="light">
+        <div class="container-fluid justify-content-center">
+          <span class="navbar-text text-white">© 2026 Ria Telesales - Todos los derechos reservados</span>
+        </div>
+      </nav>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <script>
+    function copiarTelefono(idDelElemento, botonPresionado) {
+      // 1. Obtenemos el texto dentro del <td> correspondiente
+      const numeroTelefono = document.getElementById(idDelElemento).innerText;
+
+      // 2. Usamos la API del navegador para copiar al portapapeles
+      navigator.clipboard.writeText(numeroTelefono).then(() => {
+        
+        // --- ANIMACIÓN VISUAL ---
+        // Guardamos el diseño original del botón para restaurarlo después
+        const contenidoOriginal = botonPresionado.innerHTML;
+        
+        // Cambiamos las clases de Bootstrap (azul delineado -> verde sólido)
+        botonPresionado.classList.remove('btn-outline-primary');
+        botonPresionado.classList.add('btn-success');
+        
+        // Cambiamos el icono por el chequecito de Bootstrap Icons y el texto por "Copied!"
+        botonPresionado.innerHTML = '<i class="bi bi-check-lg"></i> Copied!';
+        
+        // Deshabilitamos el botón temporalmente para evitar doble clic durante la animación
+        botonPresionado.disabled = true;
+
+        // Después de 2 segundos (2000ms), regresamos el botón a su estado normal
+        setTimeout(() => {
+          botonPresionado.classList.remove('btn-success');
+          botonPresionado.classList.add('btn-outline-primary');
+          botonPresionado.innerHTML = contenidoOriginal;
+          botonPresionado.disabled = false;
+        }, 2000);
+
+      }).catch(err => {
+        console.error("Error al copiar el número: ", err);
+      });
+    }
+    </script>
+  </body>
+</html>
