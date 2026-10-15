@@ -1,0 +1,27 @@
+/* Color corporativo */
+:root {
+  --ria-brand-color: #e47208;
+}
+
+/* Navbar y Footer personalizados */
+.navbar-ria {
+  background-color: var(--ria-brand-color);
+}
+
+/* Enlaces y textos del navbar */
+.navbar-ria .navbar-brand,
+.navbar-ria .nav-link,
+.navbar-ria .dropdown-toggle {
+  color: #000000;
+}
+
+.navbar-ria .nav-link:hover,
+.navbar-ria .nav-link:focus,
+.navbar-ria .nav-link.active {
+  color: rgb(0, 0, 0);
+}
+
+/* Alineación de iconos en botones */
+.btn-copy i {
+  pointer-events: none;
+}

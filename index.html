@@ -4,25 +4,30 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Telesales - Hub</title>
+
+    <!-- Bootstrap 5 & Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Hoja de estilos personalizada -->
     <link rel="stylesheet" href="assets/css/stylesheet.css">
   </head>
   <body class="d-flex flex-column min-vh-100">
 
     <header>
-        <nav class="navbar navbar-expand-lg" bg-body-tertiary style="background-color: #e47208;" data-bs-theme="light">
+      <nav class="navbar navbar-expand-lg navbar-ria" data-bs-theme="dark">
         <div class="container-fluid">
-          <span class="navbar-brand">Telesales Hub</span>
+          <span class="navbar-brand fw-semibold">Telesales Hub</span>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+          
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Phone Directory</a>
               </li>
-              <li>
+              <li class="nav-item">
                 <a class="nav-link" href="generalknowledge.html">General Knowledge</a>
               </li>
               <li class="nav-item dropdown">
@@ -30,17 +35,17 @@
                   Important links
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="https://hrportalsv.mts.office.eeft.com/Home/Index/AplicacionTaskHome">ASEINFO Evolution</a></li>
-                  <li><a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="https://desktop.wxcc-us1.cisco.com">Webex Contact Center</a></li>
-                  <li><a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="https://fxportal.riaenvia.net">FxClient Portal</a></li>
-                  <li><a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="https://app.hubspot.com/login?hubs_signup-url=www.hubspot.com%2F&hubs_signup-cta=nav-utility-login&hubs_content=www.hubspot.com%2F&hubs_content-cta=nav-utility-login&uuid=73d2f155-144b-4df4-965c-c00ba2e74ba3&_gl=1*7fpd7n*_gcl_au*MTEyMjIyMjAwNS4xNzgxNTY4Nzk0*FPAU*MTEyMjIyMjAwNS4xNzgxNTY4Nzk0*_ga*NzA2NjU0MDQ2LjE3ODE1Njg3OTQ.*_ga_LXTM6CQ0XK*czE3ODE1Njg3OTQkbzEkZzAkdDE3ODE1Njg3OTQkajYwJGwwJGgw">HubSpot</a></li>
-                  <li><a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="https://riamoneytransfer.klicorders.com/Secure/Home.aspx">Ria - Advertising</a></li>
-                  <li><a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="https://secure.na2.adobesign.com/account/homeJS">Adobe E-Sign</a></li>
-                  <li><a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="http://199.168.28.48:9510/tm1web/">IBM Cognos TM1 Web</a></li>
-                  <li><a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="https://app.powerbi.com/groups/me/reports/4ff78d17-2258-4d4b-9c82-e96c235875c3/084eb70c373abc2ac72f?ctid=5b5ce690-c127-44b6-bfec-2df9a337fbb1&experience=power-bi">New Prospects - Telesales Locator</a></li>
-                  <li><a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="https://app.powerbi.com/groups/me/reports/dc1bdb57-90bc-4f96-9db1-629e4984569a/a0b36f47b52d86247e71?ctid=5b5ce690-c127-44b6-bfec-2df9a337fbb1&experience=power-bi">Sales Directory</a></li>
-                  <li><a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="https://forms.monday.com/forms/0fda9cc0f94e24b1f8a56820d57f7a9a?r=use1">AMER Agent Marketing Request Form</a></li>
-                  <li><a target="_blank" rel="noopener noreferrer" class="dropdown-item" href="https://fxonline.riaenvia.net/External/Login.aspx">AML Training</a></li>
+                  <li><a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://hrportalsv.mts.office.eeft.com/Home/Index/AplicacionTaskHome">ASEINFO Evolution</a></li>
+                  <li><a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://desktop.wxcc-us1.cisco.com">Webex Contact Center</a></li>
+                  <li><a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://fxportal.riaenvia.net">FxClient Portal</a></li>
+                  <li><a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://app.hubspot.com/login">HubSpot</a></li>
+                  <li><a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://riamoneytransfer.klicorders.com/Secure/Home.aspx">Ria - Advertising</a></li>
+                  <li><a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://secure.na2.adobesign.com/account/homeJS">Adobe E-Sign</a></li>
+                  <li><a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="http://199.168.28.48:9510/tm1web/">IBM Cognos TM1 Web</a></li>
+                  <li><a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://app.powerbi.com/groups/me/reports/4ff78d17-2258-4d4b-9c82-e96c235875c3/084eb70c373abc2ac72f?ctid=5b5ce690-c127-44b6-bfec-2df9a337fbb1&experience=power-bi">New Prospects - Telesales Locator</a></li>
+                  <li><a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://app.powerbi.com/groups/me/reports/dc1bdb57-90bc-4f96-9db1-629e4984569a/a0b36f47b52d86247e71?ctid=5b5ce690-c127-44b6-bfec-2df9a337fbb1&experience=power-bi">Sales Directory</a></li>
+                  <li><a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://forms.monday.com/forms/0fda9cc0f94e24b1f8a56820d57f7a9a?r=use1">AMER Agent Marketing Request Form</a></li>
+                  <li><a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://fxonline.riaenvia.net/External/Login.aspx">AML Training</a></li>
                 </ul>
               </li>
             </ul>
@@ -49,220 +54,412 @@
       </nav>
     </header> 
 
-    <main class="flex-grow-1 p-4">
+    <main class="flex-grow-1 py-4">
       <div class="container">
-        <h1>Welcome to the <span class="fst-italic">Phone Directory</span></h1>
-        <p>Do you want to call anyone?</p>
+        <h1 class="mb-2">Welcome to the <span class="fst-italic">Phone Directory</span></h1>
+        <p class="text-muted mb-4">Do you want to call anyone?</p>
         
-        <table class="table align-middle"> 
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Department name</th>
-              <th scope="col">Phone number</th>
-              <th scope="col">Action</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>Accounting</td>
-              <td id="phone-1">855-757-3574</td>
-              <td>
-                <button class="btn btn-sm btn-outline-primary" onclick="copiarTelefono('phone-1', this)">
-                  <i class="bi bi-clipboard"></i> Copy
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>AML</td>
-              <td id="phone-2">844-278-1906</td>
-              <td>
-                <button class="btn btn-sm btn-outline-primary" onclick="copiarTelefono('phone-2', this)">
-                  <i class="bi bi-clipboard"></i> Copy
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Check Cashing</td>
-              <td id="phone-3">866-470-2396</td>
-              <td>
-                <button class="btn btn-sm btn-outline-primary" onclick="copiarTelefono('phone-3', this)">
-                  <i class="bi bi-clipboard"></i> Copy
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">4</th>
-              <td>Cumplimiento Legal</td>
-              <td id="phone-4">386-524-8078</td>
-              <td>
-                <button class="btn btn-sm btn-outline-primary" onclick="copiarTelefono('phone-4', this)">
-                  <i class="bi bi-clipboard"></i> Copy
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">5</th>
-              <td>Inside Sales</td>
-              <td id="phone-5">844-283-7400</td>
-              <td>
-                <button class="btn btn-sm btn-outline-primary" onclick="copiarTelefono('phone-5', this)">
-                  <i class="bi bi-clipboard"></i> Copy
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">6</th>
-              <td>IT El Salvador</td>
-              <td id="phone-6">+503 2507-2211</td>
-              <td>
-                <button class="btn btn-sm btn-outline-primary" onclick="copiarTelefono('phone-6', this)">
-                  <i class="bi bi-clipboard"></i> Copy
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">7</th>
-              <td>IT USA</td>
-              <td id="phone-7">844-204-1430</td>
-              <td>
-                <button class="btn btn-sm btn-outline-primary" onclick="copiarTelefono('phone-7', this)">
-                  <i class="bi bi-clipboard"></i> Copy
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">8</th>
-              <td>Order Verification</td>
-              <td id="phone-8">855-757-3574</td>
-              <td>
-                <button class="btn btn-sm btn-outline-primary" onclick="copiarTelefono('phone-8', this)">
-                  <i class="bi bi-clipboard"></i> Copy
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">9</th>
-              <td>QA AOB</td>
-              <td id="phone-9">844-832-1364</td>
-              <td>
-                <button class="btn btn-sm btn-outline-primary" onclick="copiarTelefono('phone-9', this)">
-                  <i class="bi bi-clipboard"></i> Copy
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">10</th>
-              <td>Recepcion</td>
-              <td id="phone-10">562-345-2100</td>
-              <td>
-                <button class="btn btn-sm btn-outline-primary" onclick="copiarTelefono('phone-10', this)">
-                  <i class="bi bi-clipboard"></i> Copy
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">11</th>
-              <td>Ria General</td>
-              <td id="phone-11">800-343-3831</td>
-              <td>
-                <button class="btn btn-sm btn-outline-primary" onclick="copiarTelefono('phone-11', this)">
-                  <i class="bi bi-clipboard"></i> Copy
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">12</th>
-              <td>Settlement US</td>
-              <td id="phone-12">844-401-9027</td>
-              <td>
-                <button class="btn btn-sm btn-outline-primary" onclick="copiarTelefono('phone-12', this)">
-                  <i class="bi bi-clipboard"></i> Copy
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">13</th>
-              <td>Tech Support</td>
-              <td id="phone-13">844-297-1284</td>
-              <td>
-                <button class="btn btn-sm btn-outline-primary" onclick="copiarTelefono('phone-13', this)">
-                  <i class="bi bi-clipboard"></i> Copy
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">14</th>
-              <td>TRG</td>
-              <td id="phone-14">888-596-5487</td>
-              <td>
-                <button class="btn btn-sm btn-outline-primary" onclick="copiarTelefono('phone-14', this)">
-                  <i class="bi bi-clipboard"></i> Copy
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">15</th>
-              <td>Web Support</td>
-              <td id="phone-15">877-245-1759</td>
-              <td>
-                <button class="btn btn-sm btn-outline-primary" onclick="copiarTelefono('phone-15', this)">
-                  <i class="bi bi-clipboard"></i> Copy
-                </button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="table-responsive">
+          <table class="table table-hover align-middle"> 
+  <thead class="table-light">
+    <tr>
+      <th scope="col" style="width: 5%;">#</th>
+      <th scope="col" style="width: 25%;">Department Name</th>
+      <th scope="col" style="width: 25%;">Phone Number</th>
+      <th scope="col" style="width: 30%;">Notes / Instructions</th>
+      <th scope="col" style="width: 15%;">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- 1. Accounting -->
+    <tr>
+      <th scope="row">1</th>
+      <td>Accounting</td>
+      <td id="phone-1">(855) 757-3574</td>
+      <td class="text-muted fst-italic">Insert new comment here</td>
+      <td>
+        <button type="button" class="btn btn-sm btn-outline-primary btn-copy" data-target="phone-1">
+          <i class="bi bi-clipboard me-1"></i> Copy
+        </button>
+      </td>
+    </tr>
+
+    <!-- 2. Agent Success -->
+    <tr>
+      <th scope="row">2</th>
+      <td>Agent Success</td>
+      <td id="phone-2">(562) 345-2100</td>
+      <td class="text-muted fst-italic">Insert new comment here</td>
+      <td>
+        <button type="button" class="btn btn-sm btn-outline-primary btn-copy" data-target="phone-2">
+          <i class="bi bi-clipboard me-1"></i> Copy
+        </button>
+      </td>
+    </tr>
+
+    <!-- 3. Agent Support / Ria General -->
+    <tr>
+      <th scope="row">3</th>
+      <td>Agent Support (Ria General)</td>
+      <td id="phone-3">(800) 343-3831</td>
+      <td class="text-muted fst-italic">Insert new comment here</td>
+      <td>
+        <button type="button" class="btn btn-sm btn-outline-primary btn-copy" data-target="phone-3">
+          <i class="bi bi-clipboard me-1"></i> Copy
+        </button>
+      </td>
+    </tr>
+
+    <!-- 4. AML Compliance Trainer Office -->
+    <tr>
+      <th scope="row">4</th>
+      <td>AML Compliance Trainer Office</td>
+      <td id="phone-4">(844) 278-1906</td>
+      <td class="text-muted fst-italic">Insert new comment here</td>
+      <td>
+        <button type="button" class="btn btn-sm btn-outline-primary btn-copy" data-target="phone-4">
+          <i class="bi bi-clipboard me-1"></i> Copy
+        </button>
+      </td>
+    </tr>
+
+    <!-- 5. Auditing -->
+    <tr>
+      <th scope="row">5</th>
+      <td>Auditing</td>
+      <td id="phone-5">(844) 832-1368</td>
+      <td>Option 2</td>
+      <td>
+        <button type="button" class="btn btn-sm btn-outline-primary btn-copy" data-target="phone-5">
+          <i class="bi bi-clipboard me-1"></i> Copy
+        </button>
+      </td>
+    </tr>
+
+    <!-- 6. Bill Payment -->
+    <tr>
+      <th scope="row">6</th>
+      <td>Bill Payment</td>
+      <td id="phone-6">(800) 346-2371</td>
+      <td class="text-muted fst-italic">Insert new comment here</td>
+      <td>
+        <button type="button" class="btn btn-sm btn-outline-primary btn-copy" data-target="phone-6">
+          <i class="bi bi-clipboard me-1"></i> Copy
+        </button>
+      </td>
+    </tr>
+
+    <!-- 7. Check Cashing -->
+    <tr>
+      <th scope="row">7</th>
+      <td>Check Cashing</td>
+      <td>
+        <div><span id="phone-7a">(866) 470-2390</span> <button type="button" class="btn btn-sm p-0 ms-1 btn-copy" data-target="phone-7a"><i class="bi bi-clipboard"></i></button></div>
+        <div class="mt-1"><span id="phone-7b">(866) 470-2396</span> <button type="button" class="btn btn-sm p-0 ms-1 btn-copy" data-target="phone-7b"><i class="bi bi-clipboard"></i></button></div>
+      </td>
+      <td>Primary & Secondary lines</td>
+      <td>
+        <span class="badge text-bg-secondary">Multi-line</span>
+      </td>
+    </tr>
+
+    <!-- 8. Collections -->
+    <tr>
+      <th scope="row">8</th>
+      <td>Collections</td>
+      <td id="phone-8">(866) 470-2396</td>
+      <td class="text-muted fst-italic">Insert new comment here</td>
+      <td>
+        <button type="button" class="btn btn-sm btn-outline-primary btn-copy" data-target="phone-8">
+          <i class="bi bi-clipboard me-1"></i> Copy
+        </button>
+      </td>
+    </tr>
+
+    <!-- 9. Compliance / Legal -->
+    <tr>
+      <th scope="row">9</th>
+      <td>Compliance / Legal</td>
+      <td>
+        <div><span id="phone-9a">(844) 832-1368</span> <button type="button" class="btn btn-sm p-0 ms-1 btn-copy" data-target="phone-9a"><i class="bi bi-clipboard"></i></button></div>
+        <div class="mt-1"><span id="phone-9b">(386) 524-8078</span> <button type="button" class="btn btn-sm p-0 ms-1 btn-copy" data-target="phone-9b"><i class="bi bi-clipboard"></i></button></div>
+      </td>
+      <td>Option 2 for (844) 832-1368 | Direct legal desk: (386) 524-8078</td>
+      <td>
+        <span class="badge text-bg-secondary">Multi-line</span>
+      </td>
+    </tr>
+
+    <!-- 10. Compliance FIU Canada -->
+    <tr>
+      <th scope="row">10</th>
+      <td>Compliance FIU Canada</td>
+      <td id="phone-10">(866) 470-4389</td>
+      <td class="text-muted fst-italic">Insert new comment here</td>
+      <td>
+        <button type="button" class="btn btn-sm btn-outline-primary btn-copy" data-target="phone-10">
+          <i class="bi bi-clipboard me-1"></i> Copy
+        </button>
+      </td>
+    </tr>
+
+    <!-- 11. Customer Service -->
+    <tr>
+      <th scope="row">11</th>
+      <td>Customer Service</td>
+      <td>
+        <div><span id="phone-11a">(800) 500-3994</span> <button type="button" class="btn btn-sm p-0 ms-1 btn-copy" data-target="phone-11a"><i class="bi bi-clipboard"></i></button></div>
+        <div class="mt-1"><span id="phone-11b">(855) 355-2141</span> <button type="button" class="btn btn-sm p-0 ms-1 btn-copy" data-target="phone-11b"><i class="bi bi-clipboard"></i></button></div>
+      </td>
+      <td>Option 2 for (800) 500-3994</td>
+      <td>
+        <span class="badge text-bg-secondary">Multi-line</span>
+      </td>
+    </tr>
+
+    <!-- 12. Digital Customer -->
+    <tr>
+      <th scope="row">12</th>
+      <td>Digital Customer</td>
+      <td id="phone-12">(855) 851-5154</td>
+      <td class="text-muted fst-italic">Insert new comment here</td>
+      <td>
+        <button type="button" class="btn btn-sm btn-outline-primary btn-copy" data-target="phone-12">
+          <i class="bi bi-clipboard me-1"></i> Copy
+        </button>
+      </td>
+    </tr>
+
+    <!-- 13. FIU (Financial Intelligence Unit) -->
+    <tr>
+      <th scope="row">13</th>
+      <td>FIU (Financial Intelligence Unit)</td>
+      <td>
+        <div><span id="phone-13a">(800) 455-1742</span> <button type="button" class="btn btn-sm p-0 ms-1 btn-copy" data-target="phone-13a"><i class="bi bi-clipboard"></i></button></div>
+        <div class="mt-1"><span id="phone-13b">(888) 253-5592</span> <button type="button" class="btn btn-sm p-0 ms-1 btn-copy" data-target="phone-13b"><i class="bi bi-clipboard"></i></button></div>
+      </td>
+      <td>(800) 455-1742: English | (888) 253-5592: Spanish</td>
+      <td>
+        <span class="badge text-bg-secondary">Multi-line</span>
+      </td>
+    </tr>
+
+    <!-- 14. Help Desk -->
+    <tr>
+      <th scope="row">14</th>
+      <td>Help Desk</td>
+      <td id="phone-14">(844) 297-1284</td>
+      <td>Option 4</td>
+      <td>
+        <button type="button" class="btn btn-sm btn-outline-primary btn-copy" data-target="phone-14">
+          <i class="bi bi-clipboard me-1"></i> Copy
+        </button>
+      </td>
+    </tr>
+
+    <!-- 15. Inside Sales -->
+    <tr>
+      <th scope="row">15</th>
+      <td>Inside Sales</td>
+      <td id="phone-15">(844) 283-7400</td>
+      <td class="text-muted fst-italic">Insert new comment here</td>
+      <td>
+        <button type="button" class="btn btn-sm btn-outline-primary btn-copy" data-target="phone-15">
+          <i class="bi bi-clipboard me-1"></i> Copy
+        </button>
+      </td>
+    </tr>
+
+    <!-- 16. IT El Salvador -->
+    <tr>
+      <th scope="row">16</th>
+      <td>IT El Salvador</td>
+      <td id="phone-16">+503 2507-2211</td>
+      <td class="text-muted fst-italic">Insert new comment here</td>
+      <td>
+        <button type="button" class="btn btn-sm btn-outline-primary btn-copy" data-target="phone-16">
+          <i class="bi bi-clipboard me-1"></i> Copy
+        </button>
+      </td>
+    </tr>
+
+    <!-- 17. IT USA -->
+    <tr>
+      <th scope="row">17</th>
+      <td>IT USA</td>
+      <td id="phone-17">(844) 204-1430</td>
+      <td class="text-muted fst-italic">Insert new comment here</td>
+      <td>
+        <button type="button" class="btn btn-sm btn-outline-primary btn-copy" data-target="phone-17">
+          <i class="bi bi-clipboard me-1"></i> Copy
+        </button>
+      </td>
+    </tr>
+
+    <!-- 18. Money Order -->
+    <tr>
+      <th scope="row">18</th>
+      <td>Money Order</td>
+      <td>
+        <div><span id="phone-18a">(877) 278-8807</span> <button type="button" class="btn btn-sm p-0 ms-1 btn-copy" data-target="phone-18a"><i class="bi bi-clipboard"></i></button></div>
+        <div class="mt-1"><span id="phone-18b">(405) 278-8800</span> <button type="button" class="btn btn-sm p-0 ms-1 btn-copy" data-target="phone-18b"><i class="bi bi-clipboard"></i></button></div>
+      </td>
+      <td>Internal ext: 47004 (Spanish) / 47005 (English). Printed on agent Money Order stub.</td>
+      <td>
+        <span class="badge text-bg-secondary">Multi-line</span>
+      </td>
+    </tr>
+
+    <!-- 19. NewLight / TRG1 -->
+    <tr>
+      <th scope="row">19</th>
+      <td>NewLight / TRG1</td>
+      <td>
+        <div><span id="phone-19a">(866) 470-4389</span> <button type="button" class="btn btn-sm p-0 ms-1 btn-copy" data-target="phone-19a"><i class="bi bi-clipboard"></i></button></div>
+        <div class="mt-1"><span id="phone-19b">(888) 596-5487</span> <button type="button" class="btn btn-sm p-0 ms-1 btn-copy" data-target="phone-19b"><i class="bi bi-clipboard"></i></button></div>
+      </td>
+      <td>TRG / NewLight lines</td>
+      <td>
+        <span class="badge text-bg-secondary">Multi-line</span>
+      </td>
+    </tr>
+
+    <!-- 20. Order Verification -->
+    <tr>
+      <th scope="row">20</th>
+      <td>Order Verification</td>
+      <td>
+        <div><span id="phone-20a">(855) 628-1790</span> <button type="button" class="btn btn-sm p-0 ms-1 btn-copy" data-target="phone-20a"><i class="bi bi-clipboard"></i></button></div>
+        <div class="mt-1"><span id="phone-20b">(855) 757-3574</span> <button type="button" class="btn btn-sm p-0 ms-1 btn-copy" data-target="phone-20b"><i class="bi bi-clipboard"></i></button></div>
+      </td>
+      <td>Direct desk & shared operations line</td>
+      <td>
+        <span class="badge text-bg-secondary">Multi-line</span>
+      </td>
+    </tr>
+
+    <!-- 21. Phone Top-Ups / Mobile Recharges -->
+    <tr>
+      <th scope="row">21</th>
+      <td>Phone Top-Ups (Mobile Recharges)</td>
+      <td id="phone-21">(800) 429-3012</td>
+      <td>Option 1</td>
+      <td>
+        <button type="button" class="btn btn-sm btn-outline-primary btn-copy" data-target="phone-21">
+          <i class="bi bi-clipboard me-1"></i> Copy
+        </button>
+      </td>
+    </tr>
+
+    <!-- 22. QA AOB -->
+    <tr>
+      <th scope="row">22</th>
+      <td>QA AOB</td>
+      <td id="phone-22">(844) 832-1364</td>
+      <td class="text-muted fst-italic">Insert new comment here</td>
+      <td>
+        <button type="button" class="btn btn-sm btn-outline-primary btn-copy" data-target="phone-22">
+          <i class="bi bi-clipboard me-1"></i> Copy
+        </button>
+      </td>
+    </tr>
+
+    <!-- 23. Reception -->
+    <tr>
+      <th scope="row">23</th>
+      <td>Reception</td>
+      <td id="phone-23">(562) 345-2100</td>
+      <td class="text-muted fst-italic">Insert new comment here</td>
+      <td>
+        <button type="button" class="btn btn-sm btn-outline-primary btn-copy" data-target="phone-23">
+          <i class="bi bi-clipboard me-1"></i> Copy
+        </button>
+      </td>
+    </tr>
+
+    <!-- 24. Settlement US -->
+    <tr>
+      <th scope="row">24</th>
+      <td>Settlement US</td>
+      <td id="phone-24">(844) 401-9027</td>
+      <td class="text-muted fst-italic">Insert new comment here</td>
+      <td>
+        <button type="button" class="btn btn-sm btn-outline-primary btn-copy" data-target="phone-24">
+          <i class="bi bi-clipboard me-1"></i> Copy
+        </button>
+      </td>
+    </tr>
+
+    <!-- 25. Tech Support & Web Support -->
+    <tr>
+      <th scope="row">25</th>
+      <td>Tech Support & Web Support</td>
+      <td>
+        <div><span id="phone-25a">(844) 297-1284</span> <button type="button" class="btn btn-sm p-0 ms-1 btn-copy" data-target="phone-25a"><i class="bi bi-clipboard"></i></button></div>
+        <div class="mt-1"><span id="phone-25b">(877) 245-1759</span> <button type="button" class="btn btn-sm p-0 ms-1 btn-copy" data-target="phone-25b"><i class="bi bi-clipboard"></i></button></div>
+      </td>
+      <td>Option 5 for (844) 297-1284 | Alternate / Web Support: (877) 245-1759</td>
+      <td>
+        <span class="badge text-bg-secondary">Multi-line</span>
+      </td>
+    </tr>
+
+    <!-- 26. Telesales -->
+    <tr>
+      <th scope="row">26</th>
+      <td>Telesales</td>
+      <td id="phone-26">(844) 278-1904</td>
+      <td class="text-muted fst-italic">Insert new comment here</td>
+      <td>
+        <button type="button" class="btn btn-sm btn-outline-primary btn-copy" data-target="phone-26">
+          <i class="bi bi-clipboard me-1"></i> Copy
+        </button>
+      </td>
+    </tr>
+
+    <!-- 27. Transmissions -->
+    <tr>
+      <th scope="row">27</th>
+      <td>Transmissions</td>
+      <td id="phone-27">(562) 345-8670</td>
+      <td class="text-muted fst-italic">Insert new comment here</td>
+      <td>
+        <button type="button" class="btn btn-sm btn-outline-primary btn-copy" data-target="phone-27">
+          <i class="bi bi-clipboard me-1"></i> Copy
+        </button>
+      </td>
+    </tr>
+
+    <!-- 28. Walmart -->
+    <tr>
+      <th scope="row">28</th>
+      <td>Walmart</td>
+      <td id="phone-28">(844) 297-1287</td>
+      <td class="text-muted fst-italic">Insert new comment here</td>
+      <td>
+        <button type="button" class="btn btn-sm btn-outline-primary btn-copy" data-target="phone-28">
+          <i class="bi bi-clipboard me-1"></i> Copy
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
       </div>
     </main>
 
-    <footer>
-      <nav class="navbar navbar-expand-lg" bg-body-tertiary style="background-color: #e47208;" data-bs-theme="light">
+    <footer class="mt-auto">
+      <nav class="navbar navbar-ria" data-bs-theme="dark">
         <div class="container-fluid justify-content-center">
           <span class="navbar-text text-white">© 2026 Ria Telesales - Todos los derechos reservados</span>
         </div>
       </nav>
     </footer>
 
+    <!-- Bootstrap Bundle JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
-    <script>
-    function copiarTelefono(idDelElemento, botonPresionado) {
-      // 1. Obtenemos el texto dentro del <td> correspondiente
-      const numeroTelefono = document.getElementById(idDelElemento).innerText;
-
-      // 2. Usamos la API del navegador para copiar al portapapeles
-      navigator.clipboard.writeText(numeroTelefono).then(() => {
-        
-        // --- ANIMACIÓN VISUAL ---
-        // Guardamos el diseño original del botón para restaurarlo después
-        const contenidoOriginal = botonPresionado.innerHTML;
-        
-        // Cambiamos las clases de Bootstrap (azul delineado -> verde sólido)
-        botonPresionado.classList.remove('btn-outline-primary');
-        botonPresionado.classList.add('btn-success');
-        
-        // Cambiamos el icono por el chequecito de Bootstrap Icons y el texto por "Copied!"
-        botonPresionado.innerHTML = '<i class="bi bi-check-lg"></i> Copied!';
-        
-        // Deshabilitamos el botón temporalmente para evitar doble clic durante la animación
-        botonPresionado.disabled = true;
-
-        // Después de 2 segundos (2000ms), regresamos el botón a su estado normal
-        setTimeout(() => {
-          botonPresionado.classList.remove('btn-success');
-          botonPresionado.classList.add('btn-outline-primary');
-          botonPresionado.innerHTML = contenidoOriginal;
-          botonPresionado.disabled = false;
-        }, 2000);
-
-      }).catch(err => {
-        console.error("Error al copiar el número: ", err);
-      });
-    }
-    </script>
+    <!-- Script de lógica de la aplicación -->
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
