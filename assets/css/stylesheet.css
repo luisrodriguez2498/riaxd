@@ -12,13 +12,13 @@
 .navbar-ria .navbar-brand,
 .navbar-ria .nav-link,
 .navbar-ria .dropdown-toggle {
-  color: #000000;
+  color: #ffffff;
 }
 
 .navbar-ria .nav-link:hover,
 .navbar-ria .nav-link:focus,
 .navbar-ria .nav-link.active {
-  color: rgb(0, 0, 0);
+  color: rgba(255, 255, 255, 0.85);
 }
 
 /* Alineación de iconos en botones */
